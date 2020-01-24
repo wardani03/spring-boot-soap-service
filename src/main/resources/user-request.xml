@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://wardani.com/spring.boot.soap.service">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Asfa</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
